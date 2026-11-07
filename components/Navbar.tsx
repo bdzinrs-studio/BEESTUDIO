@@ -121,7 +121,7 @@ export default function Navbar() {
               id="desktop-nav-cta"
             >
               <MessageSquare className="w-4 h-4 text-brand-black fill-brand-black/20" />
-              <span>Book a Free AI Audit</span>
+              <span>Book An AI Audit</span>
               <ArrowUpRight className="w-4 h-4" />
             </a>
           </div>
@@ -192,7 +192,7 @@ export default function Navbar() {
                 id="mobile-nav-cta"
               >
                 <MessageSquare className="w-5 h-5 text-brand-black" />
-                <span>Book a Free AI Audit</span>
+                <span>Book An AI Audit</span>
                 <ArrowUpRight className="w-4 h-4" />
               </a>
               <p className="text-center text-xs text-neutral-500 mt-1">

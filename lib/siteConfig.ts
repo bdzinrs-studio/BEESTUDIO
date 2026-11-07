@@ -30,7 +30,7 @@ export interface SiteConfig {
     whatsappDisplay: string;
     whatsappNumber: string;
 
-    // Pre-filled WhatsApp greeting message when user taps "Book a Free AI Audit"
+    // Pre-filled WhatsApp greeting message when user taps "Book An AI Audit"
     whatsappDefaultMessage: string;
 
     // [PLACEHOLDER - REPLACE WITH YOUR INSTAGRAM PROFILE URL]
@@ -75,7 +75,7 @@ export const siteConfig: SiteConfig = {
 
     // Default pre-filled message for WhatsApp CTA
     whatsappDefaultMessage:
-      "Hi Bee, I run a local service business and I'd like to book a Free AI Audit to see what we can automate.",
+      "Hi Bee, I run a local service business and I'd like to book an AI Audit to see what we can automate.",
 
     instagram: "https://www.instagram.com/beestudiooz",
 
@@ -114,7 +114,7 @@ export function getWhatsAppLink(customMessage?: string): string {
  */
 export function getMailtoLink(subject?: string): string {
   const mailSubject = encodeURIComponent(
-    subject || "Inquiry: Free AI Audit for my business"
+    subject || "Inquiry: Book an AI Audit for my business"
   );
   return `mailto:${siteConfig.contact.email}?subject=${mailSubject}`;
 }

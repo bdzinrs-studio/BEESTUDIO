@@ -73,7 +73,7 @@ export default function Hero() {
                 id="hero-primary-cta"
               >
                 <MessageSquare className="w-5 h-5 text-brand-black fill-brand-black/20" />
-                <span>Book a Free AI Audit</span>
+                <span>Book An AI Audit</span>
               </a>
 
               {/* Black Outline Secondary Button */}

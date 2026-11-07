@@ -69,7 +69,7 @@ export default function PrivacyPage() {
             </h2>
             <p>We use your information exclusively to:</p>
             <ul className="list-disc pl-6 space-y-2 mt-2">
-              <li>Respond directly to your requests and schedule free AI audits.</li>
+              <li>Respond directly to your requests and schedule AI audits.</li>
               <li>Engineer, test, and deploy customized automation workflows.</li>
               <li>Send invoices, deliver progress updates, and provide ongoing maintenance.</li>
               <li>Comply with applicable legal obligations.</li>

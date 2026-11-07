@@ -50,7 +50,7 @@ export default function CTA() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-base sm:text-xl text-neutral-300 max-w-2xl mx-auto leading-relaxed mb-10"
         >
-          Book a free 15-minute AI audit. We will inspect your current phone response time, map out your highest-leakage bottleneck, and show you exactly what to automate.
+          Book a 15-minute AI audit with us. We will inspect your current phone response time, map out your highest-leakage bottleneck, and show you exactly what to automate.
         </motion.p>
 
         {/* Action Buttons */}
@@ -70,7 +70,7 @@ export default function CTA() {
             id="cta-band-audit-btn"
           >
             <MessageSquare className="w-5 h-5 text-brand-black fill-brand-black/20" />
-            <span>Book a Free AI Audit</span>
+            <span>Book An AI Audit</span>
             <ArrowUpRight className="w-4 h-4" />
           </a>
 
